@@ -25,7 +25,6 @@ public class PriceManagerService {
         List<String> itemCosts = Arrays.asList(resource.getString("data_item_catalogue_price").split(","));
 
         for(int i=0; i< items.size(); i++){
-           // System.out.println(items.get(i)+" "+itemCosts.get(i));
             basePrice.put(new Item(items.get(i)), Double.parseDouble(itemCosts.get(i)));
         }
 

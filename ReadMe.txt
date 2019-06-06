@@ -12,5 +12,5 @@ Spring DI in order object injection ( code is right now tightly coupled as no su
 
 Run the Application:
 ===================
-Post comilation Run :: javac com/bjss/PriceBasket "pass the items spaces sepparated"
+Post compilation Run :: javac com/bjss/PriceBasket "pass the items spaces sepparated"
 
